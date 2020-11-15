@@ -9,10 +9,10 @@
 import UIKit
 
 class RepositoryListTableViewCell: UITableViewCell {
-
-    @IBOutlet var avatarImage: UIImageView!
-    @IBOutlet var loginLabel: UILabel!
-    @IBOutlet var userTypeLabel: UILabel!
+    
+    @IBOutlet weak var avatarImage: UIImageView!
+    @IBOutlet weak var loginLabel: UILabel!
+    @IBOutlet weak var userTypeLabel: UILabel!
     
     var item: Items! {
         didSet {
@@ -21,5 +21,4 @@ class RepositoryListTableViewCell: UITableViewCell {
             avatarImage.downloaded(from: item.owner.avatar_url!)
         }
     }
-    
 }

@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Repo: Codable {
+struct Repository: Codable {
     var total_count: Int?
     var items: [Items]
 }

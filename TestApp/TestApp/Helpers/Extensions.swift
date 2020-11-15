@@ -22,9 +22,9 @@ extension UIImageView {
                 else { return }
             DispatchQueue.main.async() {
                 self.image = image
-                }
-            }.resume()
-        }
+            }
+        }.resume()
+    }
     
     func downloaded(from link: String, contentMode mode: UIView.ContentMode = .scaleAspectFit) {
         guard let url = URL(string: link) else { return }

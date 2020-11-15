@@ -51,6 +51,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC043E6725617B440039B2A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC4A25BE255E6F9000B26F29 /* User.swift */,
+				AC4A25C8255EB01C00B26F29 /* UserRepo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC043E68256186980039B2A4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC4A25C0255E74AC00B26F29 /* DetailedRepositoryViewController.swift */,
+				AC0F4AEF255D704F00F78CA2 /* MainPageViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		AC0CD8A325050998001A7617 = {
 			isa = PBXGroup;
 			children = (
@@ -71,12 +89,9 @@
 			isa = PBXGroup;
 			children = (
 				AC0CD8AF25050998001A7617 /* AppDelegate.swift */,
+				AC043E6725617B440039B2A4 /* Model */,
 				AC4A25C5255E7D1900B26F29 /* Helpers */,
-				AC4A25BE255E6F9000B26F29 /* User.swift */,
-				AC4A25C8255EB01C00B26F29 /* UserRepo.swift */,
-				AC0F4AF1255D70EA00F78CA2 /* APIService.swift */,
-				AC4A25C0255E74AC00B26F29 /* DetailedRepositoryViewController.swift */,
-				AC0F4AEF255D704F00F78CA2 /* MainPageViewController.swift */,
+				AC043E68256186980039B2A4 /* Views */,
 				AC4A25C4255E791C00B26F29 /* Cells */,
 				AC0CD8B525050998001A7617 /* Main.storyboard */,
 				AC0CD8BB2505099A001A7617 /* Assets.xcassets */,
@@ -99,6 +114,7 @@
 		AC4A25C5255E7D1900B26F29 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				AC0F4AF1255D70EA00F78CA2 /* APIService.swift */,
 				AC4A25C6255E7D2800B26F29 /* Extensions.swift */,
 			);
 			path = Helpers;

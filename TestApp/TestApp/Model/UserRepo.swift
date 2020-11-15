@@ -14,3 +14,7 @@ struct UserRepo: Codable {
     var name: String?
     var language: String?
 }
+
+struct UserInfo: Codable {
+    var location: String?
+}
